@@ -12,6 +12,11 @@ git clone https://github.com/google/googletest
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=RELEASE
 make
+cd ../../
+```
+### Build TBB libs
+```
+make libs
 ```
 
 ## Writing a benchmark
