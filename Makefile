@@ -5,7 +5,7 @@ include math/make/libraries
 CXXFLAGS+=-O3 -march=native -Ibenchmark/include $(TBB_TARGETS)
 LDLIBS+=-lbenchmark
 LDFLAGS+=-Lbenchmark/build/src
-CXX ?= clang++
+CXX = clang++
 
 libs: $(TBB_TARGETS)
 
